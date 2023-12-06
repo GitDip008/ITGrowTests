@@ -31,12 +31,31 @@ The repository is structured as follows:
 
 - **Documentation**: Contains detailed documentation for each task, providing usage instructions, code explanation, and important details.
 
+### Test 2:
+This project implements a Book Service API using FastAPI, PostgreSQL, and Docker. It allows managing books, authors, and clients while providing various API functionalities.
+
+
+- **app/:** Contains core application files.
+  - **api/:** Handles API endpoints for books, authors, and clients.
+  - **crud/:** Implements CRUD operations for entities.
+  - **database/:** Contains database-related files.
+  - **schemas/:** Defines Pydantic schemas for entities.
+  - **dependencies.py:** Lists project dependencies.
+  - **main.py:** Entry point of the FastAPI application.
+
+- **migrations/:** Holds database migration scripts.
+- **books_api_postman_collection.json:** Postman collection for API testing.
+- **docker-compose.yml:** Docker Compose configuration for deployment.
+- **Dockerfile:** Configuration for building the Docker image.
+- **requirements.txt:** List of Python dependencies.
+- **startup.sh:** Initialization script for the application.
+
 ## Tasks Overview
 Each task folder includes:
 - Code samples demonstrating the concept or integration.
 - README.md file providing detailed instructions on usage, installation, and important notes for each task.
 
-### Test 2:
+
 
 ## Usage
 - Clone the repository to your local machine.
