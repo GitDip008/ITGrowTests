@@ -2,7 +2,8 @@
 
 ### Description
 1. This folder contains a Python script (`google_api.py`) that interacts with the Google Sheets API. It fetches data from a Google Spreadsheet, performs operations, and demonstrates CRUD functionality.
-2. This folder contains a Python script (`credentials.json`) that is used for the implementation of further steps.
+2. This folder contains a json file (`credentials.json`) that is used for the implementation of further steps.
+3. This folder contains a google sheet (`demo.xlsx`) which was used in the google drive and in further implementations.
    
 ### Usage
 1. Obtain `credentials.json` from the Google Developer Console for API access.
