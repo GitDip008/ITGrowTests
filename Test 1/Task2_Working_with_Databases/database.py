@@ -30,16 +30,3 @@ conn.commit()
 
 # Close the connection
 conn.close()
-
-"""
-Explanation for SQLite:
-
-SQLite is used as it's lightweight, serverless, and suitable for small-scale applications.
-A table 'users' is created with columns for id (primary key), name, and email.
-CRUD operations are performed: Insertion, Retrieval, Update, and Deletion.
-
-Explanation for Database Structure Choice:
-
-For the SQL (SQLite) database,
-a relational structure with tables and columns was chosen because the data has a clear structure (name and email).
-"""
